@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <nav className=" bg-bg-phone bg-red-400  h-[100vh] ">
+      <div className="container">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sunt
+          voluptatem, nulla ut, vel debitis delectus accusantium, voluptas hic
+          quo corporis iusto quisquam. Minima veritatis provident ratione
+          corporis, aliquid alias.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      </div>
+    </nav>
   );
 }
 
