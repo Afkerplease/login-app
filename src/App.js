@@ -48,7 +48,7 @@ function App() {
     }
   };
   return (
-    <main className="  bg-Red1  md:bg-bg-desktop bg-bg-phone h-[100vh] ">
+    <main className="  bg-Red  md:bg-bg-desktop bg-bg-phone h-[100vh] ">
       <div className="container w-[375px] mx-auto  md:grid md:grid-cols-2 md:w-[1440px] md:place-content-center md:gap-10     ">
         {/* first div */}
         <div className=" text-white font-popins py-10 flex flex-col items-center   md:mt-[40%]  ">
@@ -82,7 +82,7 @@ function App() {
               name=""
               placeholder="First Name"
               className={`${
-                firstEmpty ? "border-Red1" : ""
+                firstEmpty ? "border-Red" : ""
               } " border-[1px] border-GrayishBlue placeholder:text-DarkBlue p-4 mb-3  "`}
             />
             {firstEmpty && (
@@ -93,7 +93,7 @@ function App() {
               />
             )}
             {firstEmpty && (
-              <p className=" text-Red1 text-[12px] absolute top-[16%] left-[48%] md:top-[20%] md:left-[64%] ">
+              <p className=" text-Red text-[12px] absolute top-[16%] left-[48%] md:top-[20%] md:left-[64%] ">
                 {" "}
                 First name cannot be empty{" "}
               </p>
@@ -105,7 +105,7 @@ function App() {
               value={lastName}
               onChange={lastNameChange}
               className={` ${
-                LastEmpty ? "border-Red1" : ""
+                LastEmpty ? "border-Red" : ""
               } " border-[1px] border-GrayishBlue placeholder:text-DarkBlue p-4 mb-3 " `}
             />
             {LastEmpty && (
@@ -116,7 +116,7 @@ function App() {
               />
             )}
             {LastEmpty && (
-              <p className=" text-Red1 text-[12px] absolute top-[33%] left-[48%] md:top-[36%] md:left-[64%] ">
+              <p className=" text-Red text-[12px] absolute top-[33%] left-[48%] md:top-[36%] md:left-[64%] ">
                 {" "}
                 Last name cannot be empty{" "}
               </p>
@@ -126,7 +126,7 @@ function App() {
               name=""
               placeholder="Email Address"
               className={` ${
-                EmailEmpty ? "border-Red1" : ""
+                EmailEmpty ? "border-Red" : ""
               } " border-[1px] border-GrayishBlue placeholder:text-DarkBlue p-4 mb-3  " `}
               onChange={emailChange}
             />
@@ -138,7 +138,7 @@ function App() {
               />
             )}
             {EmailEmpty && (
-              <p className=" text-Red1 text-[12px] absolute top-[50%] left-[48%] md:left-[63%] md:top-[53%] ">
+              <p className=" text-Red text-[12px] absolute top-[50%] left-[48%] md:left-[63%] md:top-[53%] ">
                 {" "}
                 Looks like this is not an email{" "}
               </p>
@@ -148,7 +148,7 @@ function App() {
               name=""
               placeholder="Password"
               className={` ${
-                passwordEmpty ? "border-Red1" : ""
+                passwordEmpty ? "border-Red" : ""
               } " border-[1px] border-GrayishBlue placeholder:text-DarkBlue p-4  " `}
               onChange={passwordHandler}
             />
@@ -160,12 +160,12 @@ function App() {
               />
             )}
             {passwordEmpty && (
-              <p className=" text-Red1 text-[12px] absolute top-[68%] left-[50%] md:left-[65%] md:top-[69%] ">
+              <p className=" text-Red text-[12px] absolute top-[68%] left-[50%] md:left-[65%] md:top-[69%] ">
                 {" "}
                 Password cannot be empty{" "}
               </p>
             )}
-            <button className=" bg-Green text-white uppercase  p-4 rounded-[5px] mt-3 ">
+            <button className=" bg-Green text-white uppercase  p-4 rounded-[5px] mt-3 hover:bg-GreenLight  ">
               Claim your free trial
             </button>
             <p className=" text-center text-GrayishBlue text-[15px] mt-2 ">

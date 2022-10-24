@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        Red1: "hsl(0, 100%, 74%)",
+        Red: "hsl(0, 100%, 74%)",
         Green: "hsl(154, 59%, 51%)",
+        GreenLight: "hsl(154, 59%, 60%)",
         Blue: "hsl(248, 32%, 49%)",
         DarkBlue: "hsl(249, 10%, 26%) ",
         GrayishBlue: "hsl(246, 25%, 77%)",
