@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        Red: "hsl(0, 100%, 74%) ",
+        Red1: "hsl(0, 100%, 74%)",
         Green: "hsl(154, 59%, 51%)",
         Blue: "hsl(248, 32%, 49%)",
         DarkBlue: "hsl(249, 10%, 26%) ",
@@ -14,8 +14,8 @@ module.exports = {
         popins: ["Poppins"],
       },
       backgroundImage: {
-        "bg-phone": "url ('/src/images/bg-intro-mobile.png') ",
-        "bg-desktop": "url ('/src/images/bg-intro-desktop.png') ",
+        "bg-phone": "url('/src/images/bg-intro-mobile.png')",
+        "bg-desktop": "url('/src/images/bg-intro-desktop.png')",
       },
     },
   },
