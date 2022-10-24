@@ -28,11 +28,13 @@ function App() {
     event.preventDefault();
     if (!firstName) {
       setFirstEmpty(true);
+      setFirstName("  ");
     } else {
       setFirstEmpty(false);
     }
     if (!lastName) {
       setLastEmpty(true);
+      setLastName("  ");
     } else {
       setLastEmpty(false);
     }
@@ -40,9 +42,11 @@ function App() {
       setEmailEmpty(false);
     } else {
       setEmailEmpty(true);
+      setEmail("email@example/com");
     }
     if (!password) {
       setPasswordEmpty(true);
+      setPassword(" ");
     } else {
       setPasswordEmpty(false);
     }
@@ -125,8 +129,9 @@ function App() {
               type="text"
               name=""
               placeholder="Email Address"
+              value={email}
               className={` ${
-                EmailEmpty ? "border-Red" : ""
+                EmailEmpty ? "border-Red text-Red " : ""
               } " border-[1px] border-GrayishBlue placeholder:text-DarkBlue p-4 mb-3  " `}
               onChange={emailChange}
             />
@@ -144,7 +149,9 @@ function App() {
               </p>
             )}
             <input
-              type="password"
+              type="text
+              "
+              value={password}
               name=""
               placeholder="Password"
               className={` ${
